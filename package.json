@@ -1,0 +1,22 @@
+{
+  "name": "vectr2",
+  "version": "0.0.1",
+  "description": "A simple 2d Vector class in javascript ",
+  "main": "index.js ",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/turbobeast/vectr2.git"
+  },
+  "keywords": [
+    "vectors",
+    "2d",
+    "physics",
+    "math"
+  ],
+  "author": "George Michael Faust",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/turbobeast/vectr2/issues"
+  },
+  "homepage": "https://github.com/turbobeast/vectr2"
+}
