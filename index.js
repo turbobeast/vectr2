@@ -103,7 +103,7 @@ vectr2.prototype = {
 		this.x *= scalar;
 		this.y *= scalar;
 
-		return this; 
+		return this;
 	},
 
 
@@ -113,7 +113,7 @@ vectr2.prototype = {
 		this.x = unitVec.x * scalar;
 		this.y = unitVec.y * scalar;
 
-		return this; 
+		return this;
 	},
 
 	max : function (limit) {
@@ -133,11 +133,6 @@ vectr2.prototype = {
 
 	clone : function () {
 		return new vectr2(this.x, this.y);
-	},
-
-
-	ratio : function (vec) {
-		return this.mag() / vec.mag();
 	},
 
 
