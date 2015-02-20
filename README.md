@@ -1,7 +1,7 @@
 # vectr2
 Simple 2d vector class in javascript.
 
-
+[![NPM](https://nodei.co/npm/vectr2.png)](https://www.npmjs.org/package/vectr2)
 
 ```bash
 npm install vectr2 --save
