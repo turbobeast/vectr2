@@ -29,19 +29,24 @@ vectr2.prototype = {
 
 
 	add : function (vec) {
-		return new vectr2(this.x + vec.x, this.y + vec.y );
+		this.x += vec.x;
+		this.y += vec.y;
+
+		return this;
 	},
 
 
 	subtract : function (vec)  {
-		return new vectr2(this.x + -vec.x, this.y + -vec.y);
+		this.x += -vec.x;
+		this.y += -vec.y;
+
+		return this;
 	},
 
 
 	bisect : function (vec) {
 		return this.unit().add(vec.unit()).setMagnitude(110);
 	},
-
 
 
 	unit : function () {
@@ -116,17 +121,23 @@ vectr2.prototype = {
 		return this;
 	},
 
+
+
 	max : function (limit) {
 		var currentMag = this.mag();
 		if(currentMag > limit) {
 			this.setMagnitude(limit);
 		}
+
+		return this;
 	},
 
 
 	clear : function () {
 		this.x = 0;
 		this.y = 0;
+
+		return this;
 	},
 
 
