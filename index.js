@@ -64,15 +64,7 @@ vectr2.prototype = {
 
 
 	angle : function (vec) {
-		var adjacent = this.project(vec).mag(),
-		hypoteneuse = this.mag();
-
-		if(hypoteneuse === 0) {
-			return 0;
-		}
-
-		return Math.acos( adjacent / hypoteneuse );
-
+		return Math.acos( this.unit().dot(vec.unit()) );
 	},
 
 
