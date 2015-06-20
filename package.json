@@ -1,6 +1,6 @@
 {
   "name": "vectr2",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "A simple 2d Vector class in javascript ",
   "main": "index.js ",
   "repository": {
